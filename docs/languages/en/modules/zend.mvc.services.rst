@@ -277,8 +277,12 @@ values as noted below. The following services are created and managed by the ``V
 - ``ViewTemplateMapResolver``, representing and aliased to ``Zend\View\Resolver\TemplateMapResolver``. If a
   ``template_map`` key is present, it will be used to seed the template map.
 
-- ``ViewTemplatePathStack``, representing and aliased to ``Zend\View\Resolver\TemplatePathStack``. If a
-  ``template_path_stack`` key is present, it will be used to seed the stack.
+- ``ViewTemplatePathStack``, representing and aliased to ``Zend\View\Resolver\TemplatePathStack``.
+
+  - If a ``template_path_stack`` key is present, it will be used to seed the stack.
+
+  - If a ``default_template_suffix`` key is present, it will be used as the default suffix for template scripts
+    resolving.
 
 - ``ViewResolver``, representing and aliased to ``Zend\View\Resolver\AggregateResolver`` and
   ``Zend\View\Resolver\ResolverInterface``. It is seeded with the ``ViewTemplateMapResolver`` and
@@ -478,6 +482,8 @@ local configuration file overrides the global configuration.
            // module/view script path pairs
            'template_path_stack' => array(
            ),
+           // Default suffix to use when resolving template scripts, if none, 'phtml' is used
+           'default_template_suffix' => 'php',
 
            // Layout template name
            'layout' => $layoutTemplateName, // e.g., 'layout/layout'
