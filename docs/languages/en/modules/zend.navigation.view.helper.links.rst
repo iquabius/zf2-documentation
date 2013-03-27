@@ -1,7 +1,7 @@
 .. _zend.navigation.view.helper.links:
 
-View Helper - Links
-===================
+Links Helper
+^^^^^^^^^^^^
 
 The links helper is used for rendering *HTML* ``LINK`` elements. Links are used for describing document
 relationships of the currently active page. Read more about links and link types at `Document relationships: the

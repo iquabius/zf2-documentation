@@ -1,7 +1,7 @@
 .. _zend.navigation.view.helper.breadcrumbs:
 
-View Helper - Breadcrumbs
-=========================
+Breadcrumbs Helper
+^^^^^^^^^^^^^^^^^^
 
 Breadcrumbs are used for indicating where in a sitemap a user is currently browsing, and are typically rendered
 like this: "You are here: Home > Products > FantasticProduct 1.0". The breadcrumbs helper follows the guidelines

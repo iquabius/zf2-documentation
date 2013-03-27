@@ -1,7 +1,7 @@
 .. _zend.navigation.view.helper.sitemap:
 
-View Helper - Sitemap
-=====================
+Sitemap Helper
+^^^^^^^^^^^^^^
 
 The Sitemap helper is used for generating *XML* sitemaps, as defined by the `Sitemaps XML format`_. Read more about
 `Sitemaps on Wikipedia`_.

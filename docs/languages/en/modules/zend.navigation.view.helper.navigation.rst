@@ -1,7 +1,7 @@
 .. _zend.navigation.view.helper.navigation:
 
-View Helper - Navigation Proxy
-==============================
+Navigation Proxy Helper
+^^^^^^^^^^^^^^^^^^^^^^^
 
 The Navigation helper is a proxy helper that relays calls to other navigational helpers. It can be considered an
 entry point to all navigation-related view tasks. The aforementioned navigational helpers are in the namespace

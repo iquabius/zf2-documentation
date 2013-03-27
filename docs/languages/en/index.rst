@@ -181,11 +181,6 @@
    modules/zend.navigation.pages
    modules/zend.navigation.containers
    modules/zend.navigation.view.helpers
-   modules/zend.navigation.view.helper.breadcrumbs
-   modules/zend.navigation.view.helper.links
-   modules/zend.navigation.view.helper.menu
-   modules/zend.navigation.view.helper.sitemap
-   modules/zend.navigation.view.helper.navigation
    modules/zend.paginator.introduction
    modules/zend.paginator.usage
    modules/zend.paginator.configuration
@@ -621,11 +616,6 @@ Zend\\Navigation
         * :doc:`modules/zend.navigation.pages`
         * :doc:`modules/zend.navigation.containers`
         * :doc:`modules/zend.navigation.view.helpers`
-        * :doc:`modules/zend.navigation.view.helper.breadcrumbs`
-        * :doc:`modules/zend.navigation.view.helper.links`
-        * :doc:`modules/zend.navigation.view.helper.menu`
-        * :doc:`modules/zend.navigation.view.helper.sitemap`
-        * :doc:`modules/zend.navigation.view.helper.navigation`
 
 .. _zend.paginator:
 
@@ -707,7 +697,7 @@ Zend\\Soap
         * :doc:`modules/zend.soap.client`
         * :doc:`modules/zend.soap.wsdl`
         * :doc:`modules/zend.soap.auto-discovery`
-        
+
 .. _zend.stdlib:
 
 Zend\\Stdlib

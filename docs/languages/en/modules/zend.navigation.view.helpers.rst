@@ -403,4 +403,19 @@ In addition to the container above, the following setup is assumed:
        /* ... */
    }
 
+Included View Helpers
+---------------------
+
+- :ref:`Breadcrumbs Helper <zend.navigation.view.helper.breadcrumbs>`
+- :ref:`Links Helper <zend.navigation.view.helper.links>`
+- :ref:`Menu Helper <zend.navigation.view.helper.menu>`
+- :ref:`Navigation Proxy Helper <zend.navigation.view.helper.navigation>`
+- :ref:`Sitemap Helper <zend.navigation.view.helper.sitemap>`
+
+.. include:: zend.navigation.view.helper.breadcrumbs.rst
+.. include:: zend.navigation.view.helper.links.rst
+.. include:: zend.navigation.view.helper.menu.rst
+.. include:: zend.navigation.view.helper.navigation.rst
+.. include:: zend.navigation.view.helper.sitemap.rst
+
 .. _`Sitemaps XML format`: http://www.sitemaps.org/protocol.php
