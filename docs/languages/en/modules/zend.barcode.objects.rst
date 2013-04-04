@@ -1,7 +1,7 @@
 .. _zend.barcode.objects:
 
 Zend\\Barcode\\Barcode Objects
-==============================
+------------------------------
 
 Barcode objects allow you to generate barcodes independently of the rendering support. After generation, you can
 retrieve the barcode as an array of drawing instructions that you can provide to a renderer.
@@ -41,7 +41,7 @@ ways:
 .. _zend.barcode.objects.common.options:
 
 Common Options
---------------
+^^^^^^^^^^^^^^
 
 In the following list, the values have no units; we will use the term "unit." For example, the default value of the
 "thin bar" is "1 unit". The real units depend on the rendering support (see :ref:`the renderers documentation
@@ -94,7 +94,7 @@ corresponding getter prefixed with "get" (e.g. "getBarHeight"). Available option
 .. _zend.barcode.barcode.common.options.barcodefont:
 
 Particular case of static setBarcodeFont()
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""""""""""""""""""""""
 
 You can set a common font for all your objects by using the static method
 ``Zend\Barcode\Barcode::setBarcodeFont()``. This value can be always be overridden for individual objects by using
@@ -128,7 +128,7 @@ the ``setFont()`` method.
 .. _zend.barcode.objects.common.getters:
 
 Common Additional Getters
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 

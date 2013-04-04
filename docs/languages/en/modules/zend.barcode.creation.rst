@@ -1,12 +1,12 @@
 .. _zend.barcode.creation:
 
 Barcode creation using Zend\\Barcode\\Barcode class
-===================================================
+---------------------------------------------------
 
 .. _zend.barcode.creation.configuration:
 
 Using Zend\\Barcode\\Barcode::factory
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``Zend\Barcode\Barcode`` uses a factory method to create an instance of a renderer that extends
 ``Zend\Barcode\Renderer\AbstractRenderer``. The factory method accepts five arguments.
@@ -69,7 +69,7 @@ example is functionally equivalent to the previous.
 .. _zend.barcode.creation.drawing:
 
 Drawing a barcode
------------------
+^^^^^^^^^^^^^^^^^
 
 When you **draw** the barcode, you retrieve the resource in which the barcode is drawn. To draw a barcode, you can
 call the ``draw()`` of the renderer, or simply use the proxy method provided by ``Zend\Barcode\Barcode``.
@@ -117,7 +117,7 @@ call the ``draw()`` of the renderer, or simply use the proxy method provided by 
 .. _zend.barcode.creation.rendering:
 
 Rendering a barcode
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 When you render a barcode, you draw the barcode, you send the headers and you send the resource (e.g. to a
 browser). To render a barcode, you can call the ``render()`` method of the renderer or simply use the proxy method
