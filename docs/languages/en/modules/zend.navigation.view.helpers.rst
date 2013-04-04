@@ -1,7 +1,7 @@
 .. _zend.navigation.view.helpers:
 
-View Helpers
-============
+Navigation View Helpers
+=======================
 
 The navigation helpers are used for rendering navigational elements from :ref:`Zend\\Navigation\\Navigation
 <zend.navigation.containers>` instances.
@@ -402,3 +402,14 @@ In addition to the container above, the following setup is assumed:
        }
        /* ... */
    }
+
+Included View Helpers
+---------------------
+
+- :ref:`Breadcrumbs Helper <zend.navigation.view.helper.breadcrumbs>`
+- :ref:`Links Helper <zend.navigation.view.helper.links>`
+- :ref:`Menu Helper <zend.navigation.view.helper.menu>`
+- :ref:`Navigation Proxy Helper <zend.navigation.view.helper.navigation>`
+- :ref:`Sitemap Helper <zend.navigation.view.helper.sitemap>`
+
+.. _`Sitemaps XML format`: http://www.sitemaps.org/protocol.php

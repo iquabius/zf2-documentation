@@ -1,7 +1,7 @@
 .. _zend.navigation.view.helper.menu:
 
-View Helper - Menu
-==================
+Menu Helper
+^^^^^^^^^^^
 
 The Menu helper is used for rendering menus from navigation containers. By default, the menu will be rendered using
 *HTML* *UL* and *LI* tags, but the helper also allows using a partial view script.
