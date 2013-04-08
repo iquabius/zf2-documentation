@@ -125,8 +125,6 @@ exposes a number of methods:
 
    :rtype: ``Zend\Mvc\Controller\Plugin\FlashMessenger``
 
-- ``getNamespace()`` retrieves the name of the flash message namespace.
-
 
 .. function:: getNamespace()
    :noindex:
