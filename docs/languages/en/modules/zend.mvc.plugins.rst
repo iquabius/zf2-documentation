@@ -9,23 +9,23 @@ Additionally, you can register your own custom plugins with the manager.
 
 The built-in plugins are:
 
-- :ref:`Zend\\Mvc\\Controller\\Plugin\\AcceptableViewModelSelector <zend.mvc.controller-plugins.acceptableviewmodelselector>`
+- :ref:`AcceptableViewModelSelector <zend.mvc.controller-plugins.acceptableviewmodelselector>`
 
-- :ref:`Zend\\Mvc\\Controller\\Plugin\\FlashMessenger <zend.mvc.controller-plugins.flashmessenger>`
+- :ref:`FlashMessenger <zend.mvc.controller-plugins.flashmessenger>`
 
-- :ref:`Zend\\Mvc\\Controller\\Plugin\\Forward <zend.mvc.controller-plugins.forward>`
+- :ref:`Forward <zend.mvc.controller-plugins.forward>`
 
-- :ref:`Zend\\Mvc\\Controller\\Plugin\\Identity <zend.mvc.controller-plugins.identity>`
+- :ref:`Identity <zend.mvc.controller-plugins.identity>`
 
-- :ref:`Zend\\Mvc\\Controller\\Plugin\\Layout <zend.mvc.controller-plugins.layout>`
+- :ref:`Layout <zend.mvc.controller-plugins.layout>`
 
-- :ref:`Zend\\Mvc\\Controller\\Plugin\\Params <zend.mvc.controller-plugins.params>`
+- :ref:`Params <zend.mvc.controller-plugins.params>`
 
-- :ref:`Zend\\Mvc\\Controller\\Plugin\\PostRedirectGet <zend.mvc.controller-plugins.postredirectget>`
+- :ref:`PostRedirectGet <zend.mvc.controller-plugins.postredirectget>`
 
-- :ref:`Zend\\Mvc\\Controller\\Plugin\\Redirect <zend.mvc.controller-plugins.redirect>`
+- :ref:`Redirect <zend.mvc.controller-plugins.redirect>`
 
-- :ref:`Zend\\Mvc\\Controller\\Plugin\\Url <zend.mvc.controller-plugins.url>`
+- :ref:`Url <zend.mvc.controller-plugins.url>`
 
 If your controller implements the ``setPluginManager``, ``getPluginManager`` and ``plugin`` methods, you can access
 these using their shortname via the ``plugin()`` method:
